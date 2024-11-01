@@ -1,8 +1,48 @@
+'use client'
+import CardPokemon from "@/Components/CardPokemon/CardPokemon";
+import { useEffect, useState } from "react";
+import api from "./Service/api";
+
+// Define a interface para um Pokémon
+interface Pokemon {
+  name: string;
+  url: string;
+}
 export default function Home() {
+  const [pokemons, setPokemons] = useState<Pokemon[]>([]);
+  const [loading, setLoading] = useState(true);
+  
+useEffect(() => {
+  async function fetchPokemons() {
+    try{
+      const response = await api.get('pokemon');
+      const { results } = response.data;
+      setPokemons(results);
+      // console.log(results);
+    }catch(error){
+      console.error("Erro ao buscar os pokémons:", error);
+    }finally{
+      setLoading(false);
+    }
+  }
+  
+  fetchPokemons();
+}, [])
+if(loading) return <p>loading...</p>
+
   return (
     <main>
-      <div>
-        <h1>Pagina Home</h1>
+      <div className="bg-red-700 h-screen md:container md:mx-auto p-8">
+        <div className="">
+          <h1 className="font-semibold text-3xl">Pokedex</h1>
+        </div>
+        <div className="bg-gray-700 h-screen">
+          lista de pokemons
+          {pokemons.map((pokemon) => (
+            <CardPokemon key={pokemon.name} name={pokemon.name} url={pokemon.url}/>
+          ))}
+
+        </div>
       </div>
     </main>
     // <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
