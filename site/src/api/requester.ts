@@ -1,21 +1,6 @@
-import axios, { AxiosResponse, type AxiosRequestConfig } from "axios";
+import axios, { AxiosResponse } from "axios";
 
-// Define a type for the configuration
-interface RequesterConfig extends AxiosRequestConfig {
-  baseURL: string;
-  options?: AxiosRequestConfig;
-}
-
-// Define a type for the response data if you have a common structure
-type ResponseData = {
-  // Define the structure of your response data here
-  // For example:
-  // id: number;
-   url: string;
-   data: string | null;
-  // [key: string]: any; // For dynamic keys, you can use this
-};
-export const requester = (config: RequesterConfig, contentType?: string) => {
+export const requester = (config: any, contentType?: string): any => {
   const service = axios.create({
     baseURL: config.baseURL,
     ...config.options,
@@ -35,24 +20,24 @@ export const requester = (config: RequesterConfig, contentType?: string) => {
   );
 
   return {
-    async get<T = ResponseData>(uri: string): Promise<AxiosResponse<T>> {
+    async get<T = any>(uri: string): Promise<AxiosResponse<T>> {
       const response = await service.get<T>(uri);
       return response;
     },
-    async post<T = ResponseData>(uri: string, data: T): Promise<AxiosResponse<T>> {
+    async post<T = any>(uri: string, data: any): Promise<AxiosResponse<T>> {
       const response = await service.post<T>(uri, data);
       return response;
     },
-    async put<T = ResponseData>(uri: string, data: T): Promise<AxiosResponse<T>> {
+    async put<T = any>(uri: string, data: any): Promise<AxiosResponse<T>> {
       const response = await service.put<T>(uri, data);
       return response;
     },
-    async patch<T = ResponseData>(uri: string, data: T): Promise<AxiosResponse<T>> {
+    async patch<T = any>(uri: string, data: any): Promise<AxiosResponse<T>> {
       const response = await service.patch<T>(uri, data);
       return response;
     },
-    async delete<T = ResponseData>(uri: string, data: T): Promise<AxiosResponse<T>> {
-      const response = await service.delete<T>(uri, {data});
+    async delete<T = any>(uri: string, data: any): Promise<AxiosResponse<T>> {
+      const response = await service.delete<T>(uri, data);
       return response;
     },
   };
