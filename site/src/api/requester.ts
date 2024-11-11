@@ -1,44 +1,99 @@
-import axios, { AxiosResponse } from 'axios';
+import axios, { AxiosHeaders, AxiosRequestConfig, AxiosResponse } from 'axios';
+interface BaseConfig {
+   baseURL: string;
+   options?: AxiosRequestConfig;
+}
 
-export const requester = (config: any, contentType?: string): any => {
+type ContentType = 'application/json' | 'multipart/form-data' | string;
+type Data = Record<string, unknown>;
+
+export const requester = (config: BaseConfig, contentType?: ContentType) => {
+   // Criação da instância do Axios
    const service = axios.create({
       baseURL: config.baseURL,
       ...config.options,
    });
 
+   // Interceptador de Requisição
    service.interceptors.request.use(
       (req) => {
-         req.headers = {
+         req.headers = new AxiosHeaders({
             'Content-Type': contentType || 'application/json',
             'Access-Control-Allow-Origin': '*',
-            ...config,
-         };
+         });
 
          return req;
       },
       (error) => Promise.reject(error)
    );
 
+   // Métodos de Requisição
    return {
-      async get<T = any>(uri: string): Promise<AxiosResponse<T>> {
-         const response = await service.get<T>(uri);
-         return response;
+      // Método GET
+      async get<T = unknown>(uri: string): Promise<AxiosResponse<T>> {
+         try {
+            const response = await service.get<T>(uri);
+            return response;
+         } catch (error) {
+            console.error('Erro na requisição GET:', error);
+            throw error;
+         }
       },
-      async post<T = any>(uri: string, data: any): Promise<AxiosResponse<T>> {
-         const response = await service.post<T>(uri, data);
-         return response;
+
+      // Método POST
+      async post<T = unknown>(
+         uri: string,
+         data: Data
+      ): Promise<AxiosResponse<T>> {
+         try {
+            const response = await service.post<T>(uri, data);
+            return response;
+         } catch (error) {
+            console.error('Erro na requisição POST:', error);
+            throw error;
+         }
       },
-      async put<T = any>(uri: string, data: any): Promise<AxiosResponse<T>> {
-         const response = await service.put<T>(uri, data);
-         return response;
+
+      // Método PUT
+      async put<T = unknown>(
+         uri: string,
+         data: Data
+      ): Promise<AxiosResponse<T>> {
+         try {
+            const response = await service.put<T>(uri, data);
+            return response;
+         } catch (error) {
+            console.error('Erro na requisição PUT:', error);
+            throw error;
+         }
       },
-      async patch<T = any>(uri: string, data: any): Promise<AxiosResponse<T>> {
-         const response = await service.patch<T>(uri, data);
-         return response;
+
+      // Método PATCH
+      async patch<T = unknown>(
+         uri: string,
+         data: Data
+      ): Promise<AxiosResponse<T>> {
+         try {
+            const response = await service.patch<T>(uri, data);
+            return response;
+         } catch (error) {
+            console.error('Erro na requisição PATCH:', error);
+            throw error;
+         }
       },
-      async delete<T = any>(uri: string, data: any): Promise<AxiosResponse<T>> {
-         const response = await service.delete<T>(uri, data);
-         return response;
+
+      // Método DELETE
+      async delete<T = unknown>(
+         uri: string,
+         data?: Data
+      ): Promise<AxiosResponse<T>> {
+         try {
+            const response = await service.delete<T>(uri, { data });
+            return response;
+         } catch (error) {
+            console.error('Erro na requisição DELETE:', error);
+            throw error;
+         }
       },
    };
 };

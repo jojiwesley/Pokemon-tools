@@ -8,13 +8,15 @@ import { requester } from '../../api/requester';
 import type { IPokemonFetch } from '../../interface';
 import { atomHashPokemonFetch, atomHashPokemonsList } from '../hashs';
 
+const BaseUrl = 'https://pokeapi.co/api/v2';
+
 export const selectorFetchPokemon = selector({
    key: 'selectorFetchPokemon',
    get: async ({ get }) => {
       get(atomHashPokemonFetch);
       const offSet = get(atomPokemonOffset);
       const { data } = await requester({
-         baseURL: 'https://pokeapi.co/api/v2',
+         baseURL: BaseUrl,
       }).get(`/pokemon?limit=10&offset=${offSet}`);
 
       return data;
@@ -32,7 +34,7 @@ export const selectorGetPokemons = selector({
          );
          const result = list.map(async (pokemon) => {
             const { data } = await requester({
-               baseURL: 'https://pokeapi.co/api/v2',
+               baseURL: BaseUrl,
             }).get(`/pokemon/${pokemon.toLowerCase().trim()}`);
 
             return data;
@@ -51,8 +53,8 @@ export const selectorGetPokemon = selector({
       const pokemon = get(atomPokemonSearch);
       if (pokemon) {
          const { data } = await requester({
-            baseURL: 'https://pokeapi.co/api/v2',
-         }).get(`/pokemon/${pokemon.toLowerCase().trim()}`);
+            baseURL: BaseUrl,
+         }).get(`/pokemon/${pokemon.toString().toLowerCase().trim()}`);
 
          return data;
       }

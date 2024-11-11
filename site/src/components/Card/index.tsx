@@ -9,9 +9,17 @@ interface ICardProps {
    image: string;
    preview?: string;
    type: TPokemonType;
+   experience: number;
 }
 
-const Card: FC<ICardProps> = ({ id, name, image, preview, type }) => {
+const Card: FC<ICardProps> = ({
+   id,
+   name,
+   image,
+   preview,
+   type,
+   experience,
+}) => {
    return (
       <Atom.Container
          gap="xs"
@@ -35,7 +43,27 @@ const Card: FC<ICardProps> = ({ id, name, image, preview, type }) => {
             justify="space-between"
             direction="row"
          >
-            <Atom.PokemonText type={type}>{name}</Atom.PokemonText>
+            <FlexBox
+               align="flex-start"
+               justify="center"
+               direction="column"
+               gap="xxs"
+            >
+               <Atom.PokemonText type={type}>{name}</Atom.PokemonText>
+
+               <Atom.PokemonContainerType
+                  align="center"
+                  justify="flex-start"
+                  direction="row"
+                  gap="xxs"
+               >
+                  <Atom.PokemonTextType type={type}>
+                     {type}
+                  </Atom.PokemonTextType>
+                  <div>{experience}</div>
+               </Atom.PokemonContainerType>
+            </FlexBox>
+
             {preview && <img src={preview} alt="" />}
          </Atom.PokemonPreviewSection>
       </Atom.Container>

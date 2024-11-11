@@ -99,19 +99,19 @@ export interface IPokemonTypes {
 }
 
 export interface IPokemon {
-   abilities: IPokemonAbilities[];
+   id: number;
+   name: string;
+   order: number;
+   height: number;
    base_experience: number;
+   abilities: IPokemonAbilities[];
    forms: IPokemonForms[];
    game_indices: IPokemonGameIndices[];
-   height: number;
    held_items: IPokemonHeldItems[];
-   id: number;
    is_default: boolean;
    location_area_encounters: string;
    moves: IPokemonMoves[];
-   name: string;
-   order: number;
-   past_types: any[];
+   past_types: unknown[];
    species: {
       name: string;
       url: string;

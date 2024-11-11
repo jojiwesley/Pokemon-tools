@@ -12,7 +12,7 @@ export const Container = styled(FlexBox)`
    box-shadow:
       rgba(0, 0, 0, 0.12) 0px 1px 3px,
       rgba(0, 0, 0, 0.24) 0px 1px 2px;
-   padding: 10px;
+   padding: 15px;
    height: 320px;
 
    @media (max-width: ${(props) => props.theme.breakpoints.sm}) {
@@ -52,4 +52,17 @@ export const PokemonText = styled.span<TAtomPokemonType>`
    font-size: 1.25em;
    font-weight: bold;
    text-transform: capitalize;
+`;
+export const PokemonContainerType = styled(FlexBox)`
+   width: fit-content;
+   max-width: 250px;
+`;
+export const PokemonTextType = styled.div<TAtomPokemonType>`
+   background-color: ${(props) => props?.theme?.colors?.types?.[props?.type]};
+   font-size: 0.8em;
+   font-weight: normal;
+   text-transform: capitalize;
+   color: white;
+   padding: 3px 10px;
+   width: fit-content;
 `;
