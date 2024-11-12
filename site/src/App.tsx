@@ -32,6 +32,7 @@ import {
 } from './store/selectors';
 import Input from './components/input';
 import PokemonCount from './components/PokemonCount';
+import { IPokemon } from './interface';
 
 //::
 function App() {
@@ -110,9 +111,11 @@ function App() {
          if (pokemonList.length + 0) {
             // const filteredList = getLoadablePokemons.contents.filter((pokemon) => pokemonList.find((item) => item.name === pokemon.name));
 
-            SetPokemonList(pokemonList.concat(getLoadablePokemons.contents));
+            SetPokemonList(
+               pokemonList.concat(getLoadablePokemons.contents as IPokemon[])
+            );
          } else {
-            SetPokemonList(getLoadablePokemons.contents);
+            SetPokemonList(getLoadablePokemons.contents as IPokemon[]);
          }
       }
    }, [getLoadablePokemons.state, getLoadablePokemons.contents]);
@@ -161,6 +164,9 @@ function App() {
                         type={
                            getLoadablePokemon?.contents?.types[0]?.type?.name
                         }
+                        experience={
+                           getLoadablePokemon?.contents?.base_experience
+                        }
                         preview={
                            getLoadablePokemon?.contents?.sprites?.versions?.[
                               'generation-v'
@@ -190,6 +196,7 @@ function App() {
                            ''
                         }
                         type={pokemon.types[0]?.type?.name}
+                        experience={pokemon.base_experience}
                         preview={
                            pokemon.sprites?.versions?.['generation-v']?.[
                               'black-white'

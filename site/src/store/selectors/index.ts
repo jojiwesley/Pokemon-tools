@@ -5,7 +5,11 @@ import {
    atomPokemonSearch,
 } from '../atoms/atoms';
 import { requester } from '../../api/requester';
-import type { IPokemonFetch } from '../../interface';
+import type {
+   IPokemon,
+   IPokemonFetch,
+   IPokemonResponseFetch,
+} from '../../interface';
 import { atomHashPokemonFetch, atomHashPokemonsList } from '../hashs';
 
 const BaseUrl = 'https://pokeapi.co/api/v2';
@@ -17,8 +21,8 @@ export const selectorFetchPokemon = selector({
       const offSet = get(atomPokemonOffset);
       const { data } = await requester({
          baseURL: BaseUrl,
-      }).get(`/pokemon?limit=10&offset=${offSet}`);
-
+      }).get<IPokemonResponseFetch>(`/pokemon?limit=10&offset=${offSet}`);
+      console.log(data);
       return data;
    },
 });
@@ -54,7 +58,9 @@ export const selectorGetPokemon = selector({
       if (pokemon) {
          const { data } = await requester({
             baseURL: BaseUrl,
-         }).get(`/pokemon/${pokemon.toString().toLowerCase().trim()}`);
+         }).get<IPokemon>(
+            `/pokemon/${pokemon.toString().toLowerCase().trim()}`
+         );
 
          return data;
       }

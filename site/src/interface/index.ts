@@ -18,6 +18,9 @@ export type TPokemonType =
    | 'steel'
    | 'water';
 
+export interface IPokemonResponseFetch {
+   results: IPokemonFetch[];
+}
 export interface IPokemonFetch {
    name: string;
    url: string;
