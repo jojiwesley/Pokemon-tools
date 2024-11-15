@@ -22,7 +22,6 @@ export const selectorFetchPokemon = selector({
       const { data } = await requester({
          baseURL: BaseUrl,
       }).get<IPokemonResponseFetch>(`/pokemon?limit=10&offset=${offSet}`);
-      console.log(data);
       return data;
    },
 });
