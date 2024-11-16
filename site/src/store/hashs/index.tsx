@@ -1,16 +1,20 @@
-import { atom } from "recoil";
+import { atom } from 'recoil';
 
 export const atomHashPokemonsFetch = atom<number>({
-  key: "atomHashPokemonsFetch",
-  default: 0,
+   key: 'atomHashPokemonsFetch',
+   default: 0,
 });
 
 export const atomHashPokemonsList = atom<number>({
-  key: "atomHashPokemonsList",
-  default: 0,
+   key: 'atomHashPokemonsList',
+   default: 0,
 });
 
 export const atomHashPokemon = atom<number>({
-  key: "atomHashPokemon",
-  default: 0,
+   key: 'atomHashPokemon',
+   default: 0,
+});
+export const atomHashSelectedPokemon = atom<string>({
+   key: 'atomHashSelectedPokemon',
+   default: '',
 });
