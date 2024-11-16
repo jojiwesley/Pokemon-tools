@@ -46,6 +46,7 @@ const HomePage = () => {
    // recoil: loadable
    const getLodablePokemons = useRecoilValueLoadable(selectorGetPokemons);
    const getLoadablePokemon = useRecoilValueLoadable(selectorGetPokemon);
+   //List com os 10 primeiros pokemons;
    const fetchLoadablePokemon = useRecoilValueLoadable(selectorFetchPokemons);
 
    // memo: states
@@ -85,7 +86,14 @@ const HomePage = () => {
       if (getLodablePokemons.state === 'hasError') {
          setHashPokemonsList(hashPokemonsList + 1);
       }
-   }, [fetchLoadablePokemon.state, getLodablePokemons.state]);
+   }, [
+      fetchLoadablePokemon.state,
+      getLodablePokemons.state,
+      hashFetchMorePokemons,
+      setHashFetchMorePokemons,
+      hashPokemonsList,
+      setHashPokemonsList,
+   ]);
 
    // effects
    useEffect(() => {
@@ -95,8 +103,13 @@ const HomePage = () => {
       ) {
          setFetchPokemons(fetchLoadablePokemon.contents.results);
       }
-   }, [fetchLoadablePokemon.state, fetchLoadablePokemon.contents]);
+   }, [
+      fetchLoadablePokemon.state,
+      fetchLoadablePokemon.contents,
+      setFetchPokemons,
+   ]);
 
+   //re
    useEffect(() => {
       if (
          getLodablePokemons.state === 'hasValue' &&
