@@ -1,67 +1,71 @@
-import { selector } from 'recoil';
+import { selector } from "recoil";
+
+// api
+import { requester } from "../../api/requester";
+import { IPokemon, IPokemonFetch } from "../../interface";
+
+// recoil: atoms
 import {
-   atomPokemonFatch,
-   atomPokemonOffset,
-   atomPokemonSearch,
-} from '../atoms/atoms';
-import { requester } from '../../api/requester';
-import type {
-   IPokemon,
-   IPokemonFetch,
-   IPokemonResponseFetch,
-} from '../../interface';
-import { atomHashPokemonFetch, atomHashPokemonsList } from '../hashs';
+  atomPokemonFetch,
+  atomPokemonOffset,
+  atomPokemonSearch,
+} from "../atoms";
+import {
+  atomHashPokemon,
+  atomHashPokemonsFetch,
+  atomHashPokemonsList,
+} from "../hashs";
 
-const BaseUrl = 'https://pokeapi.co/api/v2';
+export const selectorFetchPokemons = selector({
+  key: "selectorFetchPokemons",
+  get: async ({ get }) => {
+    get(atomHashPokemonsFetch);
+    const offSet = get(atomPokemonOffset);
 
-export const selectorFetchPokemon = selector({
-   key: 'selectorFetchPokemon',
-   get: async ({ get }) => {
-      get(atomHashPokemonFetch);
-      const offSet = get(atomPokemonOffset);
-      const { data } = await requester({
-         baseURL: BaseUrl,
-      }).get<IPokemonResponseFetch>(`/pokemon?limit=10&offset=${offSet}`);
-      return data;
-   },
+    const { data } = await requester({
+      baseURL: "https://pokeapi.co/api/v2",
+    }).get(`pokemon?limit=10&offset=${offSet}`);
+
+    return data;
+  },
 });
 
 export const selectorGetPokemons = selector({
-   key: 'selectorGetPokemons',
-   get: async ({ get }) => {
-      get(atomHashPokemonsList);
-      const PokemonFatch = get(atomPokemonFatch);
-      if (PokemonFatch.length > 0) {
-         const list = PokemonFatch.map(
-            (pokemon: IPokemonFetch) => pokemon.name
-         );
-         const result = list.map(async (pokemon) => {
-            const { data } = await requester({
-               baseURL: BaseUrl,
-            }).get(`/pokemon/${pokemon.toLowerCase().trim()}`);
+  key: "selectorGetPokemons",
+  get: async ({ get }) => {
+    get(atomHashPokemonsList);
+    const pokemonFetch = get(atomPokemonFetch);
 
-            return data;
-         });
+    if (pokemonFetch.length > 0) {
+      const list = pokemonFetch.map((pokemon: IPokemonFetch) => pokemon.name);
 
-         const PokemonList = Promise.all(result);
+      const result = list.map(async (pokemon) => {
+        const { data } = await requester({
+          baseURL: "https://pokeapi.co/api/v2",
+        }).get(`/pokemon/${pokemon.toLowerCase().trim()}`);
 
-         return PokemonList;
-      }
-   },
+        return data;
+      });
+
+      const pokemonsList = Promise.all(result);
+
+      return pokemonsList;
+    }
+  },
 });
 
-export const selectorGetPokemon = selector({
-   key: 'selectorGetPokemon',
-   get: async ({ get }) => {
-      const pokemon = get(atomPokemonSearch);
-      if (pokemon) {
-         const { data } = await requester({
-            baseURL: BaseUrl,
-         }).get<IPokemon>(
-            `/pokemon/${pokemon.toString().toLowerCase().trim()}`
-         );
+export const selectorGetPokemon = selector<IPokemon>({
+  key: "selectorGetPokemon",
+  get: async ({ get }) => {
+    get(atomHashPokemon);
+    const pokemon = get(atomPokemonSearch);
 
-         return data;
-      }
-   },
+    if (pokemon) {
+      const { data } = await requester({
+        baseURL: "https://pokeapi.co/api/v2",
+      }).get(`/pokemon/${pokemon.toLowerCase().trim()}`);
+
+      return data;
+    }
+  },
 });

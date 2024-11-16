@@ -1,13 +1,12 @@
 import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
 import { RecoilRoot } from 'recoil';
+import { createRoot } from 'react-dom/client';
+import AppRouter from './routes';
 
+import { dark } from './theme';
 import { ThemeProvider } from 'styled-components';
-import { dark } from './theme/index.ts';
-import { ResetCss } from './theme/globalStyles.ts';
-import AppRouter from './Routes/routes.tsx';
+import { ResetCss } from './theme/globalStyles';
 
-import './index.css';
 createRoot(document.getElementById('root')!).render(
    <StrictMode>
       <RecoilRoot>
@@ -18,3 +17,7 @@ createRoot(document.getElementById('root')!).render(
       </RecoilRoot>
    </StrictMode>
 );
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
