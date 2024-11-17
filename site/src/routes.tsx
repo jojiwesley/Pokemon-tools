@@ -1,6 +1,8 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { Error404, Home, PokeDetails } from './pages';
 import App from './app';
+import About from './pages/About';
+import Tools from './pages/Tools';
 
 const router = createBrowserRouter([
    {
@@ -15,6 +17,14 @@ const router = createBrowserRouter([
          {
             path: '/detalhes/:id',
             element: <PokeDetails />,
+         },
+         {
+            path: '/sobre',
+            element: <About />,
+         },
+         {
+            path: '/ferramentas',
+            element: <Tools />,
          },
       ],
    },

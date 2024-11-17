@@ -14,7 +14,8 @@ import { atomHashSelectedPokemon } from '../../../store/hashs';
 const Card: FC<ICardProps> = ({ id, image, name, preview, typeColor }) => {
    const setSelectedPokemon = useSetRecoilState(atomHashSelectedPokemon);
    const handleViewDetails = (id: number) => {
-      setSelectedPokemon(id); // Define o ID no atom
+      const safeId = id.toString();
+      setSelectedPokemon(safeId); // Define o ID no atom
    };
 
    return (
