@@ -61,9 +61,9 @@ const PokemonsSection: FC<IPokemonsSection> = ({
                         ]?.animated?.front_default
                      }
                      image={
-                        pokemon.sprites?.other?.dream_world?.front_default ||
                         pokemon.sprites.other?.['official-artwork']
                            ?.front_default ||
+                        pokemon.sprites?.other?.dream_world?.front_default ||
                         ''
                      }
                      name={pokemon.name}
