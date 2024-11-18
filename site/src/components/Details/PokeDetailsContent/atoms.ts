@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { FlexBox } from '../../Atoms/Flexbox';
 
 export const ContentDetails = styled(FlexBox)`
-   animation: fadeIn 0.5s both;
+   animation: fadeIn 1s both;
    max-width: 500px;
    background-color: ${(props) => props?.theme?.colors?.neutral?.pure};
    border-radius: 5px;
@@ -26,4 +26,16 @@ export const ContentDetails = styled(FlexBox)`
          transform: translateY(0px);
       }
    }
+`;
+export const P = styled.p`
+   text-align: left;
+   font-size: 16px;
+`;
+export const SpanTitle = styled.span`
+   text-align: left;
+   font-size: 16px;
+`;
+export const Span = styled.span`
+   text-align: left;
+   font-size: 18px;
 `;

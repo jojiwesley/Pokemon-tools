@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { FlexBox } from '../../Atoms/Flexbox';
 
-export const ContentSprite = styled(FlexBox)`
+export const Content = styled.div`
    animation: fadeIn 0.5s both;
    max-width: 500px;
    background-color: ${(props) => props?.theme?.colors?.neutral?.pure};
@@ -10,7 +10,9 @@ export const ContentSprite = styled(FlexBox)`
       rgba(0, 0, 0, 0.12) 0px 1px 3px,
       rgba(0, 0, 0, 0.24) 0px 1px 2px;
    padding: 30px;
-   height: 500px;
+   height: 400px;
+   position: relative;
+   overflow: hidden;
 
    @media (max-width: ${(props) => props.theme.breakpoints.sm}) {
       max-width: 100%;
@@ -26,6 +28,11 @@ export const ContentSprite = styled(FlexBox)`
          transform: translateY(0px);
       }
    }
+`;
+
+export const ContentSprite = styled(FlexBox)`
+   height: 100%;
+   width: 100%;
 `;
 export const PokemonDetailsSprite = styled.img`
    height: 400px;

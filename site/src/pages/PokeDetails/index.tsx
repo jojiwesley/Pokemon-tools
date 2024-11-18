@@ -11,6 +11,7 @@ import { Container, FlexBox, Loading } from '../../components';
 import PokeSpriteContent from '../../components/Details/PokeSpriteContent';
 import PokeDetailsContent from '../../components/Details/PokeDetailsContent';
 
+import * as Atom from './atoms';
 const PokeDetails = () => {
    const { id } = useParams<{ id: string }>(); // Captura o parâmetro 'id' da URL
    const safeId = id ?? '';
@@ -69,7 +70,7 @@ const PokeDetails = () => {
       return <Container>No Pokémon found</Container>;
    }
    return (
-      <Container>
+      <Atom.ContentDetails>
          <FlexBox align="center" direction="column" justify="center">
             <div>PokeDetails = {id}</div>
             <h1>{pokemon?.name}</h1>
@@ -94,6 +95,8 @@ const PokeDetails = () => {
                      height={pokemon?.height}
                      weight={pokemon?.weight}
                      base_experience={pokemon.base_experience}
+                     abilities={pokemon.abilities}
+                     category={pokemon.species.url}
                   />
                   {/* <div>
                      <p>Height: {pokemon?.height}</p>
@@ -108,7 +111,7 @@ const PokeDetails = () => {
                </FlexBox>
             </div>
          </FlexBox>
-      </Container>
+      </Atom.ContentDetails>
    );
 };
 

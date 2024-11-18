@@ -4,12 +4,17 @@ import * as Atom from './atoms';
 
 //:Types
 import { IPokemonDetailContent } from './types';
+import PokeballSvg from '../../PokemballSvg';
 
 const PokeSpriteContent: FC<IPokemonDetailContent> = ({ image, alt }) => {
    return (
-      <Atom.ContentSprite align="center" justify="center" direction="row">
-         <Atom.PokemonDetailsSprite src={image} alt={alt} />
-      </Atom.ContentSprite>
+      <Atom.Content>
+         <Atom.ContentSprite align="center" justify="center" direction="column">
+            <Atom.PokemonDetailsSprite src={image} alt={alt} />
+         </Atom.ContentSprite>
+
+         <PokeballSvg />
+      </Atom.Content>
    );
 };
 
