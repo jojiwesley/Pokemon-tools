@@ -1,0 +1,4635 @@
+{
+  "pokemons": [
+    {
+      "name": "Bulbasaur",
+      "url": "https://wiki.pokexgames.com/index.php/Bulbasaur",
+      "details": {
+        "informacoes": {
+          "Nome": "Bulbasaur",
+          "Level": "20",
+          "Elemento": "Grass / Poison",
+          "Habilidades": "Light, Cut and Headbutt.",
+          "Boost": "Leaf Stone ou Venon Stone(10).",
+          "Materia": "Naturia ou Malefic",
+          "Pedra de Evolução": "Leaf Stone"
+        },
+        "evolucoes": {
+          "Bulbasaur": 20,
+          "Ivysaur": 40,
+          "Venusaur": 80
+        },
+        "descricao": "Uma estranha semente foi plantada nas costas ao nascer. A planta brota e cresce com este Pokémon.",
+        "movimentos": {
+          "pvp": [],
+          "pve": [],
+          "general": [
+            {
+              "moveSet": "M1",
+              "moveName": "Tackle",
+              "time": 12,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 20
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Razor Leaf",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 20
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Vine Whip",
+              "time": 18,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 20
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Grass Knot",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 23
+            },
+            {
+              "moveSet": "M5",
+              "moveName": "Leech Seed",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/68/Lifesteal.png",
+                  "effectTitle": "Lifesteal"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 20
+            },
+            {
+              "moveSet": "M6",
+              "moveName": "Solar Beam",
+              "time": 60,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 25
+            },
+            {
+              "moveSet": "M7",
+              "moveName": "Stun Spore",
+              "time": 40,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/f/ff/Paralyze.png",
+                  "effectTitle": "Paralyze"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 20
+            },
+            {
+              "moveSet": "M8",
+              "moveName": "Poison Powder",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/8/82/PoisonStatus.png",
+                  "effectTitle": "Poison"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/0/03/Poison1.png",
+                "typeTitle": "Poison"
+              },
+              "level": 0
+            }
+          ]
+        },
+        "efetividades": {
+          "Efetivo": "Fire, Ice, Flying and Psychic.",
+          "Normal": "Normal, Poison, Ground, Bug, Rock, Ghost, Dragon, Steel, Dark and Crystal.",
+          "Inefetivo": "Water, Electric, Fighting and Fairy.",
+          "Muito Inefetivo": "Grass."
+        }
+      }
+    },
+    {
+      "name": "Ivysaur",
+      "url": "https://wiki.pokexgames.com/index.php/Ivysaur",
+      "details": {
+        "informacoes": {
+          "Nome": "Ivysaur",
+          "Level": "40",
+          "Elemento": "Grass / Poison",
+          "Habilidades": "Light, Cut and Headbutt.",
+          "Boost": "Leaf Stone ou Venom Stone (7)",
+          "Materia": "Naturia ou Malefic",
+          "Pedra de Evolução": "Leaf Stone (2x)"
+        },
+        "evolucoes": {
+          "Bulbasaur": 20,
+          "Ivysaur": 40,
+          "Venusaur": 80
+        },
+        "descricao": "Quando sua planta está pronta para desabrochar, ela emite um aroma adocicado para indicar sua floração.",
+        "movimentos": {
+          "pvp": [],
+          "pve": [],
+          "general": [
+            {
+              "moveSet": "M1",
+              "moveName": "Tackle",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 40
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Razor Leaf",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 40
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Vine Whip",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 40
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Headbutt",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 40
+            },
+            {
+              "moveSet": "M5",
+              "moveName": "Leech Seed",
+              "time": 30,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/68/Lifesteal.png",
+                  "effectTitle": "Lifesteal"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 40
+            },
+            {
+              "moveSet": "M6",
+              "moveName": "Bullet Seed",
+              "time": 35,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/68/Lifesteal.png",
+                  "effectTitle": "Lifesteal"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 45
+            },
+            {
+              "moveSet": "M7",
+              "moveName": "Solar Beam",
+              "time": 60,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 48
+            },
+            {
+              "moveSet": "M8",
+              "moveName": "Giga Drain",
+              "time": 60,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/68/Lifesteal.png",
+                  "effectTitle": "Lifesteal"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/64/Nevermiss.png",
+                  "effectTitle": "Nevermiss"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 45
+            },
+            {
+              "moveSet": "M9",
+              "moveName": "Sleep Powder",
+              "time": 60,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/9/97/Stun.png",
+                  "effectTitle": "Stun"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 44
+            },
+            {
+              "moveSet": "M10",
+              "moveName": "Poison Powder",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/8/82/PoisonStatus.png",
+                  "effectTitle": "Poison"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/0/03/Poison1.png",
+                "typeTitle": "Poison"
+              },
+              "level": 40
+            }
+          ]
+        },
+        "efetividades": {
+          "Efetivo": "Fire, Ice, Flying and Psychic.",
+          "Normal": "Normal, Poison, Ground, Bug, Rock, Ghost, Dragon, Steel, Dark and Crystal.",
+          "Inefetivo": "Water, Electric, Fighting and Fairy.",
+          "Muito Inefetivo": "Grass."
+        }
+      }
+    },
+    {
+      "name": "Venusaur",
+      "url": "https://wiki.pokexgames.com/index.php/Venusaur",
+      "details": {
+        "informacoes": {
+          "Nome": "Venusaur",
+          "Level": "80",
+          "Elemento": "Grass / Poison",
+          "Habilidades": "Rock Smash, Cut, Light, Ride and Headbutt.",
+          "Boost": "Leaf Stone ou Venom Stone (3)",
+          "Materia": "Naturia Enhanced ou Malefic Enhanced"
+        },
+        "evolucoes": {
+          "Bulbasaur": 20,
+          "Ivysaur": 40
+        },
+        "descricao": "Há uma grande flor nas costas do Venusaur. Diz-se que a flor adquire cores vivas, caso receba muita nutrição e luz solar. O aroma da flor acalma as emoções das pessoas.",
+        "movimentos": {
+          "pvp": [
+            {
+              "moveSet": "M1",
+              "moveName": "Tackle",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Razor Leaf",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Vine Whip",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Sludge",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/0/03/Poison1.png",
+                "typeTitle": "Poison"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M5",
+              "moveName": "Leech Seed",
+              "time": 30,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/68/Lifesteal.png",
+                  "effectTitle": "Lifesteal"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M6",
+              "moveName": "Bullet Seed",
+              "time": 35,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M7",
+              "moveName": "Solar Beam",
+              "time": 60,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M8",
+              "moveName": "Giga Drain",
+              "time": 60,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/68/Lifesteal.png",
+                  "effectTitle": "Lifesteal"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/64/Nevermiss.png",
+                  "effectTitle": "Nevermiss"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M9",
+              "moveName": "Petal Blizzard",
+              "time": 70,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M10",
+              "moveName": "Sleep Powder",
+              "time": 60,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/9/97/Stun.png",
+                  "effectTitle": "Stun"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M11",
+              "moveName": "Poison Powder",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/8/82/PoisonStatus.png",
+                  "effectTitle": "Poison"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/0/03/Poison1.png",
+                "typeTitle": "Poison"
+              },
+              "level": 80
+            }
+          ],
+          "pve": [
+            {
+              "moveSet": "M1",
+              "moveName": "Tackle",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Razor Leaf",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Vine Whip",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Sludge",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/0/03/Poison1.png",
+                "typeTitle": "Poison"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M5",
+              "moveName": "Leech Seed",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/68/Lifesteal.png",
+                  "effectTitle": "Lifesteal"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M6",
+              "moveName": "Bullet Seed",
+              "time": 35,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M7",
+              "moveName": "Solar Beam",
+              "time": 45,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M8",
+              "moveName": "Giga Drain",
+              "time": 30,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/68/Lifesteal.png",
+                  "effectTitle": "Lifesteal"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/64/Nevermiss.png",
+                  "effectTitle": "Nevermiss"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M9",
+              "moveName": "Petal Blizzard",
+              "time": 50,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M10",
+              "moveName": "Sleep Powder",
+              "time": 40,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/9/97/Stun.png",
+                  "effectTitle": "Stun"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M11",
+              "moveName": "Poison Powder",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/8/82/PoisonStatus.png",
+                  "effectTitle": "Poison"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/0/03/Poison1.png",
+                "typeTitle": "Poison"
+              },
+              "level": 80
+            }
+          ],
+          "general": []
+        },
+        "efetividades": {
+          "Efetivo": "Fire, Ice, Flying and Psychic.",
+          "Normal": "Normal, Poison, Ground, Bug, Rock, Ghost, Dragon, Steel, Dark and Crystal.",
+          "Inefetivo": "Water, Electric, Fighting and Fairy.",
+          "Muito Inefetivo": "Grass."
+        }
+      }
+    },
+    {
+      "name": "Charmander",
+      "url": "https://wiki.pokexgames.com/index.php/Charmander",
+      "details": {
+        "informacoes": {
+          "Nome": "Charmander",
+          "Level": "20",
+          "Elemento": "Fire",
+          "Habilidades": "Cut, Light and Headbutt.",
+          "Boost": "Fire Stone (10)",
+          "Materia": "Volcanic",
+          "Pedra de Evolução": "Fire Stone"
+        },
+        "evolucoes": {
+          "Charmander": 20,
+          "Charmeleon": 40,
+          "Charizard": 80
+        },
+        "descricao": "O fogo na ponta da cauda é uma medida de sua vida. Se saudável, sua cauda queima intensamente.",
+        "movimentos": {
+          "pvp": [],
+          "pve": [],
+          "general": [
+            {
+              "moveSet": "M1",
+              "moveName": "Scratch",
+              "time": 12,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 20
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Ember",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 20
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Flamethrower",
+              "time": 18,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/b/bf/Burn.png",
+                  "effectTitle": "Burn"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 20
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Fire Ball",
+              "time": 22,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/b/bf/Burn.png",
+                  "effectTitle": "Burn"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 20
+            },
+            {
+              "moveSet": "M5",
+              "moveName": "Fire Fang",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/b/bf/Burn.png",
+                  "effectTitle": "Burn"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 23
+            },
+            {
+              "moveSet": "M6",
+              "moveName": "Fire Blast",
+              "time": 60,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/b/bf/Burn.png",
+                  "effectTitle": "Burn"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 25
+            },
+            {
+              "moveSet": "M7",
+              "moveName": "Rage",
+              "time": 30,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/0d/Self.png",
+                  "effectTitle": "Self"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c7/Dragon.png",
+                "typeTitle": "Dragon"
+              },
+              "level": 0
+            }
+          ]
+        },
+        "efetividades": {
+          "Muito Efetivo": "Water, Ground and Rock.",
+          "Normal": "Normal, Electric, Fighting, Poison, Flying, Psychic, Ghost, Dragon, Dark and Crystal.",
+          "Muito Inefetivo": "Fire, Grass, Ice, Bug, Steel and Fairy."
+        }
+      }
+    },
+    {
+      "name": "Charmeleon",
+      "url": "https://wiki.pokexgames.com/index.php/Charmeleon",
+      "details": {
+        "informacoes": {
+          "Nome": "Charmeleon",
+          "Level": "40",
+          "Elemento": "Fire",
+          "Habilidades": "Cut, Light and Headbutt.",
+          "Boost": "Fire Stone (7)",
+          "Materia": "Volcanic",
+          "Pedra de Evolução": "Fire Stone and Feather Stone"
+        },
+        "evolucoes": {
+          "Charmander": 20,
+          "Charmeleon": 40,
+          "Charizard": 80
+        },
+        "descricao": "Se ficar agitado durante a batalha, lança chamas intensas, incinerando seus arredores.",
+        "movimentos": {
+          "pvp": [],
+          "pve": [],
+          "general": [
+            {
+              "moveSet": "M1",
+              "moveName": "Fire Punch",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 40
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Ember",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 40
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Flamethrower",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/b/bf/Burn.png",
+                  "effectTitle": "Burn"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 40
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Fire Ball",
+              "time": 25,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/b/bf/Burn.png",
+                  "effectTitle": "Burn"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 40
+            },
+            {
+              "moveSet": "M5",
+              "moveName": "Fire Fang",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/b/bf/Burn.png",
+                  "effectTitle": "Burn"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 40
+            },
+            {
+              "moveSet": "M6",
+              "moveName": "Flame Burst",
+              "time": 35,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 45
+            },
+            {
+              "moveSet": "M7",
+              "moveName": "Fire Blast",
+              "time": 60,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/b/bf/Burn.png",
+                  "effectTitle": "Burn"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 48
+            },
+            {
+              "moveSet": "M8",
+              "moveName": "Rage",
+              "time": 30,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/0d/Self.png",
+                  "effectTitle": "Self"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c7/Dragon.png",
+                "typeTitle": "Dragon"
+              },
+              "level": 40
+            }
+          ]
+        },
+        "efetividades": {
+          "Muito Efetivo": "Water, Ground and Rock.",
+          "Normal": "Normal, Electric, Fighting, Poison, Flying, Psychic, Ghost, Dragon, Dark and Crystal.",
+          "Muito Inefetivo": "Fire, Grass, Ice, Bug, Steel and Fairy."
+        }
+      }
+    },
+    {
+      "name": "Charizard",
+      "url": "https://wiki.pokexgames.com/index.php/Charizard",
+      "details": {
+        "informacoes": {
+          "Nome": "Charizard",
+          "Level": "80",
+          "Elemento": "Fire / Flying",
+          "Habilidades": "Dig, Rock Smash, Cut, Light, Fly and Headbutt.",
+          "Boost": "Fire Stone ou Feather Stone (3)",
+          "Materia": "Volcanic Enhanced ou Wingeon Enhanced"
+        },
+        "evolucoes": {
+          "Charmander": 20,
+          "Charmeleon": 40,
+          "Charizard": 80
+        },
+        "descricao": "Cospe fogo quente o suficiente para derreter pedras. Pode causar incêndios florestais soprando chamas.",
+        "movimentos": {
+          "pvp": [
+            {
+              "moveSet": "M1",
+              "moveName": "Ember",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Flamethrower",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/b/bf/Burn.png",
+                  "effectTitle": "Burn"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Fire Ball",
+              "time": 25,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/b/bf/Burn.png",
+                  "effectTitle": "Burn"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Fire Punch",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M5",
+              "moveName": "Flame Burst",
+              "time": 35,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M6",
+              "moveName": "Fire Blast",
+              "time": 60,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/b/bf/Burn.png",
+                  "effectTitle": "Burn"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M7",
+              "moveName": "Air Slash",
+              "time": 35,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 83
+            },
+            {
+              "moveSet": "M8",
+              "moveName": "Wing Attack",
+              "time": 35,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 85
+            },
+            {
+              "moveSet": "M9",
+              "moveName": "Magma Storm",
+              "time": 60,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/b/bf/Burn.png",
+                  "effectTitle": "Burn"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 90
+            },
+            {
+              "moveSet": "M10",
+              "moveName": "Sunny Day",
+              "time": 60,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/64/Nevermiss.png",
+                  "effectTitle": "Nevermiss"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 92
+            },
+            {
+              "moveSet": "M11",
+              "moveName": "Ancient Fury",
+              "time": 45,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/0d/Self.png",
+                  "effectTitle": "Self"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 87
+            },
+            {
+              "moveSet": "M12",
+              "moveName": "Solar Power",
+              "time": 0,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/d/d6/Passive.png",
+                  "effectTitle": "Passive"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 0
+            }
+          ],
+          "pve": [
+            {
+              "moveSet": "M1",
+              "moveName": "Ember",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Flamethrower",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/b/bf/Burn.png",
+                  "effectTitle": "Burn"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Fire Ball",
+              "time": 25,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/b/bf/Burn.png",
+                  "effectTitle": "Burn"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Fire Punch",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M5",
+              "moveName": "Flame Burst",
+              "time": 35,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M6",
+              "moveName": "Fire Blast",
+              "time": 60,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/b/bf/Burn.png",
+                  "effectTitle": "Burn"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M7",
+              "moveName": "Air Slash",
+              "time": 35,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 83
+            },
+            {
+              "moveSet": "M8",
+              "moveName": "Wing Attack",
+              "time": 35,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 85
+            },
+            {
+              "moveSet": "M9",
+              "moveName": "Magma Storm",
+              "time": 70,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/b/bf/Burn.png",
+                  "effectTitle": "Burn"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 90
+            },
+            {
+              "moveSet": "M10",
+              "moveName": "Sunny Day",
+              "time": 50,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/64/Nevermiss.png",
+                  "effectTitle": "Nevermiss"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 92
+            },
+            {
+              "moveSet": "M11",
+              "moveName": "Ancient Fury",
+              "time": 45,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/0d/Self.png",
+                  "effectTitle": "Self"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 87
+            },
+            {
+              "moveSet": "M12",
+              "moveName": "Solar Power",
+              "time": 0,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/d/d6/Passive.png",
+                  "effectTitle": "Passive"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/3/30/Fire.png",
+                "typeTitle": "Fire"
+              },
+              "level": 0
+            }
+          ],
+          "general": []
+        },
+        "efetividades": {
+          "Muito Efetivo": "Rock.",
+          "Efetivo": "Water and Electric.",
+          "Normal": "Normal, Ice, Poison, Flying, Psychic, Ghost, Dragon, Dark and Crystal.",
+          "Inefetivo": "Fire, Fighting, Steel and Fairy.",
+          "Muito Inefetivo": "Grass and Bug.",
+          "Nulo": "Ground."
+        }
+      }
+    },
+    {
+      "name": "Squirtle",
+      "url": "https://wiki.pokexgames.com/index.php/Squirtle",
+      "details": {
+        "informacoes": {
+          "Nome": "Squirtle",
+          "Level": "20",
+          "Elemento": "Water",
+          "Habilidades": "Surf and Headbutt.",
+          "Boost": "Water Stone (10)",
+          "Materia": "Seavell",
+          "Pedra de Evolução": "Water Stone"
+        },
+        "evolucoes": {
+          "Squirtle": 20,
+          "Wartortle": 40,
+          "Blastoise": 80
+        },
+        "descricao": "Ela se abriga em sua concha, e depois revida com esguicho de água a cada oportunidade.",
+        "movimentos": {
+          "pvp": [],
+          "pve": [],
+          "general": [
+            {
+              "moveSet": "M1",
+              "moveName": "Headbutt",
+              "time": 12,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 20
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Bubbles",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 20
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Water Gun",
+              "time": 18,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 20
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Water Ball",
+              "time": 22,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 20
+            },
+            {
+              "moveSet": "M5",
+              "moveName": "Aqua Tail",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 23
+            },
+            {
+              "moveSet": "M6",
+              "moveName": "Hydro Cannon",
+              "time": 60,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 25
+            },
+            {
+              "moveSet": "M7",
+              "moveName": "Harden",
+              "time": 30,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/0d/Self.png",
+                  "effectTitle": "Self"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 0
+            }
+          ]
+        },
+        "efetividades": {
+          "Muito Efetivo": "Grass and Electric.",
+          "Normal": "Normal, Fighting, Poison, Ground, Flying, Psychic, Bug, Rock, Ghost, Dragon, Dark, Crystal and Fairy.",
+          "Muito Inefetivo": "Fire, Water, Ice and Steel."
+        }
+      }
+    },
+    {
+      "name": "Wartortle",
+      "url": "https://wiki.pokexgames.com/index.php/Wartortle",
+      "details": {
+        "informacoes": {
+          "Nome": "Wartortle",
+          "Level": "40",
+          "Elemento": "Water",
+          "Habilidades": "Surf and Headbutt.",
+          "Boost": "Water Stone (7)",
+          "Materia": "Seavell",
+          "Pedra de Evolução": "Water Stone (2x)"
+        },
+        "evolucoes": {
+          "Squirtle": 20,
+          "Wartortle": 40,
+          "Blastoise": 80
+        },
+        "descricao": "Geralmente esconde-se na água para perseguir presas descuidadas. Para nadar rápido, move os ouvidos para manter o equilíbrio.",
+        "movimentos": {
+          "pvp": [],
+          "pve": [],
+          "general": [
+            {
+              "moveSet": "M1",
+              "moveName": "Headbutt",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 40
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Bubbles",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 40
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Water Gun",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 40
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Water Ball",
+              "time": 25,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 40
+            },
+            {
+              "moveSet": "M5",
+              "moveName": "Aqua Tail",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 40
+            },
+            {
+              "moveSet": "M6",
+              "moveName": "Brine",
+              "time": 35,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 45
+            },
+            {
+              "moveSet": "M7",
+              "moveName": "Hydro Cannon",
+              "time": 60,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 48
+            },
+            {
+              "moveSet": "M8",
+              "moveName": "Skull Bash",
+              "time": 35,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/f/ff/Paralyze.png",
+                  "effectTitle": "Paralyze"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 45
+            },
+            {
+              "moveSet": "M9",
+              "moveName": "Harden",
+              "time": 30,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/0d/Self.png",
+                  "effectTitle": "Self"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 40
+            }
+          ]
+        },
+        "efetividades": {
+          "Muito Efetivo": "Grass and Electric.",
+          "Normal": "Normal, Fighting, Poison, Ground, Flying, Psychic, Bug, Rock, Ghost, Dragon, Dark, Crystal and Fairy.",
+          "Muito Inefetivo": "Fire, Water, Ice and Steel."
+        }
+      }
+    },
+    {
+      "name": "Blastoise",
+      "url": "https://wiki.pokexgames.com/index.php/Blastoise",
+      "details": {
+        "informacoes": {
+          "Nome": "Blastoise",
+          "Level": "80",
+          "Elemento": "Water",
+          "Habilidades": "Rock Smash, Surf, Dig and Headbutt",
+          "Boost": "Water Stone (3)",
+          "Materia": "Seavell Enhanced"
+        },
+        "evolucoes": {
+          "Squirtle": 20,
+          "Wartortle": 40,
+          "Blastoise": 80
+        },
+        "descricao": "Os jatos d'água que jorra dos canhões de foguetes em sua concha podem perfurar aço espesso.",
+        "movimentos": {
+          "pvp": [
+            {
+              "moveSet": "M1",
+              "moveName": "Headbutt",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Bubbles",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Water Gun",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Water Ball",
+              "time": 25,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M5",
+              "moveName": "Water Pulse",
+              "time": 30,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M6",
+              "moveName": "Muddy Water",
+              "time": 50,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/68/Blind.png",
+                  "effectTitle": "Blind"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M7",
+              "moveName": "Hydro Cannon",
+              "time": 50,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M8",
+              "moveName": "Withdraw",
+              "time": 40,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/0d/Self.png",
+                  "effectTitle": "Self"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/3/3f/Debuff.png",
+                  "effectTitle": "Debuff"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/64/Nevermiss.png",
+                  "effectTitle": "Nevermiss"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 84
+            },
+            {
+              "moveSet": "M9",
+              "moveName": "Hydro Pump",
+              "time": 50,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 90
+            },
+            {
+              "moveSet": "M10",
+              "moveName": "Harden",
+              "time": 50,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/0d/Self.png",
+                  "effectTitle": "Self"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M11",
+              "moveName": "Protector",
+              "time": 0,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/d/d6/Passive.png",
+                  "effectTitle": "Passive"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 0
+            }
+          ],
+          "pve": [
+            {
+              "moveSet": "M1",
+              "moveName": "Headbutt",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Bubbles",
+              "time": 8,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Water Gun",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Water Ball",
+              "time": 25,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M5",
+              "moveName": "Water Pulse",
+              "time": 30,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M6",
+              "moveName": "Muddy Water",
+              "time": 40,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/68/Blind.png",
+                  "effectTitle": "Blind"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M7",
+              "moveName": "Hydro Cannon",
+              "time": 50,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M8",
+              "moveName": "Withdraw",
+              "time": 40,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/0d/Self.png",
+                  "effectTitle": "Self"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/3/3f/Debuff.png",
+                  "effectTitle": "Debuff"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/64/Nevermiss.png",
+                  "effectTitle": "Nevermiss"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 84
+            },
+            {
+              "moveSet": "M9",
+              "moveName": "Hydro Pump",
+              "time": 50,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/9d/Water.png",
+                "typeTitle": "Water"
+              },
+              "level": 90
+            },
+            {
+              "moveSet": "M10",
+              "moveName": "Harden",
+              "time": 40,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/0d/Self.png",
+                  "effectTitle": "Self"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M11",
+              "moveName": "Protector",
+              "time": 0,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/d/d6/Passive.png",
+                  "effectTitle": "Passive"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 0
+            }
+          ],
+          "general": []
+        },
+        "efetividades": {
+          "Muito Efetivo": "Grass and Electric.",
+          "Normal": "Normal, Fighting, Poison, Ground, Flying, Psychic, Bug, Rock, Ghost, Dragon, Dark, Crystal and Fairy.",
+          "Muito Inefetivo": "Fire, Water, Ice and Steel."
+        }
+      }
+    },
+    {
+      "name": "Caterpie",
+      "url": "https://wiki.pokexgames.com/index.php/Caterpie",
+      "details": {
+        "informacoes": {
+          "Nome": "Caterpie",
+          "Level": "1",
+          "Elemento": "Bug",
+          "Boost": "Cocoon Stone (30)",
+          "Materia": "Naturia",
+          "Pedra de Evolução": "Cocoon Stone"
+        },
+        "evolucoes": {
+          "Caterpie": 1,
+          "Metapod": 10,
+          "Butterfree": 30
+        },
+        "descricao": "É coberto com uma pele verde. Quando cresce, deixa cair a pele, se cobre com seda e se torna um casulo.",
+        "movimentos": {
+          "pvp": [],
+          "pve": [],
+          "general": [
+            {
+              "moveSet": "M1",
+              "moveName": "Headbutt",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 1
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "String Shot",
+              "time": 5,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/f/ff/Paralyze.png",
+                  "effectTitle": "Paralyze"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7d/Bug.png",
+                "typeTitle": "Bug"
+              },
+              "level": 1
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Bug Bite",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7d/Bug.png",
+                "typeTitle": "Bug"
+              },
+              "level": 1
+            }
+          ]
+        },
+        "efetividades": {
+          "Muito Efetivo": "Fire, Flying and Rock.",
+          "Normal": "Normal, Water, Electric, Ice, Poison, Psychic, Bug, Ghost, Dragon, Steel, Dark, Crystal and Fairy.",
+          "Muito Inefetivo": "Grass, Fighting and Ground."
+        }
+      }
+    },
+    {
+      "name": "Metapod",
+      "url": "https://wiki.pokexgames.com/index.php/Metapod",
+      "details": {
+        "informacoes": {
+          "Nome": "Metapod",
+          "Level": "10",
+          "Elemento": "Bug",
+          "Boost": "Cocoon Stone (15)",
+          "Materia": "Naturia",
+          "Pedra de Evolução": "Cocoon Stone (2x)"
+        },
+        "evolucoes": {
+          "Caterpie": 1,
+          "Metapod": 10,
+          "Butterfree": 30
+        },
+        "descricao": "Uma concha de aço duro protege seu corpo sensível. Ele silenciosamente suporta sofrimentos enquanto aguarda a evolução.",
+        "movimentos": {
+          "pvp": [],
+          "pve": [],
+          "general": [
+            {
+              "moveSet": "M1",
+              "moveName": "String Shot",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/f/ff/Paralyze.png",
+                  "effectTitle": "Paralyze"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7d/Bug.png",
+                "typeTitle": "Bug"
+              },
+              "level": 10
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Headbutt",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 10
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Harden",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/0d/Self.png",
+                  "effectTitle": "Self"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 10
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Bug Bite",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7d/Bug.png",
+                "typeTitle": "Bug"
+              },
+              "level": 10
+            }
+          ]
+        },
+        "efetividades": {
+          "Muito Efetivo": "Fire, Flying and Rock.",
+          "Normal": "Normal, Water, Electric, Ice, Poison, Psychic, Bug, Ghost, Dragon, Steel, Dark, Crystal and Fairy.",
+          "Muito Inefetivo": "Grass, Fighting and Ground."
+        }
+      }
+    },
+    {
+      "name": "Butterfree",
+      "url": "https://wiki.pokexgames.com/index.php/Butterfree",
+      "details": {
+        "informacoes": {
+          "Nome": "Butterfree",
+          "Level": "30",
+          "Elemento": "Bug / Flying",
+          "Habilidades": "Light",
+          "Boost": "Cocoon Stone ou Feather Stone (10)",
+          "Materia": "Naturia ou Wingeon"
+        },
+        "evolucoes": {
+          "Caterpie": 1,
+          "Metapod": 10,
+          "Butterfree": 30
+        },
+        "descricao": "Ele adora o mel das flores, e pode localizar manchas de flores que possuem quantidades minúsculas de pólen.",
+        "movimentos": {
+          "pvp": [],
+          "pve": [],
+          "general": [
+            {
+              "moveSet": "M1",
+              "moveName": "Super Sonic",
+              "time": 30,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/e/e6/Confusion.png",
+                  "effectTitle": "Confusion"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 30
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Silver Wind",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7d/Bug.png",
+                "typeTitle": "Bug"
+              },
+              "level": 30
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Air Slash",
+              "time": 30,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 33
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Confusion",
+              "time": 30,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/e/e6/Confusion.png",
+                  "effectTitle": "Confusion"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/2/21/Psychic.png",
+                "typeTitle": "Psychic"
+              },
+              "level": 30
+            },
+            {
+              "moveSet": "M5",
+              "moveName": "Psybeam",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/2/21/Psychic.png",
+                "typeTitle": "Psychic"
+              },
+              "level": 32
+            },
+            {
+              "moveSet": "M6",
+              "moveName": "Air Cutter",
+              "time": 25,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 34
+            },
+            {
+              "moveSet": "M7",
+              "moveName": "Sleep Powder",
+              "time": 60,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/9/97/Stun.png",
+                  "effectTitle": "Stun"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 30
+            },
+            {
+              "moveSet": "M8",
+              "moveName": "Safeguard",
+              "time": 40,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/0d/Self.png",
+                  "effectTitle": "Self"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/64/Nevermiss.png",
+                  "effectTitle": "Nevermiss"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 36
+            },
+            {
+              "moveSet": "M9",
+              "moveName": "Poison Powder",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/8/82/PoisonStatus.png",
+                  "effectTitle": "Poison"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/0/03/Poison1.png",
+                "typeTitle": "Poison"
+              },
+              "level": 0
+            }
+          ]
+        },
+        "efetividades": {
+          "Muito Efetivo": "Rock.",
+          "Efetivo": "Fire, Electric, Ice and Flying.",
+          "Normal": "Normal, Water, Poison, Psychic, Ghost, Dragon, Steel, Dark, Crystal and Fairy.",
+          "Inefetivo": "Bug.",
+          "Muito Inefetivo": "Grass and Fighting.",
+          "Nulo": "Ground."
+        }
+      }
+    },
+    {
+      "name": "Weedle",
+      "url": "https://wiki.pokexgames.com/index.php/Weedle",
+      "details": {
+        "informacoes": {
+          "Nome": "Weedle",
+          "Level": "1",
+          "Elemento": "Poison / Bug",
+          "Boost": "Cocoon Stone ou Venom Stone (30)",
+          "Materia": "Naturia ou Malefic",
+          "Pedra de Evolução": "Cocoon Stone"
+        },
+        "evolucoes": {
+          "Weedle": 1,
+          "Kakuna": 10,
+          "Beedrill": 30
+        },
+        "descricao": "Frequentemente encontrado em florestas e pastagens. Tem uma farpa afiada e tóxica de cerca de cinco centímetros no topo da cabeça.",
+        "movimentos": {
+          "pvp": [],
+          "pve": [],
+          "general": [
+            {
+              "moveSet": "M1",
+              "moveName": "Horn Attack",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 1
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "String Shot",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/f/ff/Paralyze.png",
+                  "effectTitle": "Paralyze"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7d/Bug.png",
+                "typeTitle": "Bug"
+              },
+              "level": 1
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Poison Sting",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/8/82/PoisonStatus.png",
+                  "effectTitle": "Poison"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/0/03/Poison1.png",
+                "typeTitle": "Poison"
+              },
+              "level": 1
+            }
+          ]
+        },
+        "efetividades": {
+          "Efetivo": "Fire, Flying, Psychic and Rock.",
+          "Normal": "Normal, Water, Electric, Ice, Ground, Ghost, Dragon, Steel, Dark and Crystal.",
+          "Inefetivo": "Poison, Bug and Fairy.",
+          "Muito Inefetivo": "Grass and Fighting."
+        }
+      }
+    },
+    {
+      "name": "Kakuna",
+      "url": "https://wiki.pokexgames.com/index.php/Kakuna",
+      "details": {
+        "informacoes": {
+          "Nome": "Kakuna",
+          "Level": "10",
+          "Elemento": "Poison / Bug",
+          "Boost": "Cocoon Stone ou Venom Stone (15)",
+          "Materia": "Naturia ou Malefic",
+          "Pedra de Evolução": "Cocoon Stone (2x)"
+        },
+        "evolucoes": {
+          "Weedle": 1,
+          "Kakuna": 10,
+          "Beedrill": 30
+        },
+        "descricao": "Enquanto aguarda a evolução, esconde-se de predadores sob folhas e em recantos de galhos.",
+        "movimentos": {
+          "pvp": [],
+          "pve": [],
+          "general": [
+            {
+              "moveSet": "M1",
+              "moveName": "String Shot",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/f/ff/Paralyze.png",
+                  "effectTitle": "Paralyze"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7d/Bug.png",
+                "typeTitle": "Bug"
+              },
+              "level": 10
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Headbutt",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 10
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Harden",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/0d/Self.png",
+                  "effectTitle": "Self"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 10
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Bug Bite",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7d/Bug.png",
+                "typeTitle": "Bug"
+              },
+              "level": 10
+            }
+          ]
+        },
+        "efetividades": {
+          "Efetivo": "Fire, Flying, Psychic and Rock.",
+          "Normal": "Normal, Water, Electric, Ice, Ground, Ghost, Dragon, Steel, Dark and Crystal.",
+          "Inefetivo": "Poison, Bug and Fairy.",
+          "Muito Inefetivo": "Grass and Fighting."
+        }
+      }
+    },
+    {
+      "name": "Beedrill",
+      "url": "https://wiki.pokexgames.com/index.php/Beedrill",
+      "details": {
+        "informacoes": {
+          "Nome": "Beedrill",
+          "Level": "30",
+          "Elemento": "Poison / Bug",
+          "Habilidades": "Light and Cut",
+          "Boost": "Cocoon Stone ou Venom Stone (10)",
+          "Materia": "Naturia ou Malefic"
+        },
+        "evolucoes": {
+          "Weedle": 1,
+          "Kakuna": 10,
+          "Beedrill": 30
+        },
+        "descricao": "Seu melhor ataque envolve voar em alta velocidade, golpear com agulhas de veneno e, depois, voar.",
+        "movimentos": {
+          "pvp": [],
+          "pve": [],
+          "general": [
+            {
+              "moveSet": "M1",
+              "moveName": "String Shot",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/f/ff/Paralyze.png",
+                  "effectTitle": "Paralyze"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7d/Bug.png",
+                "typeTitle": "Bug"
+              },
+              "level": 30
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Poison Jab",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/8/82/PoisonStatus.png",
+                  "effectTitle": "Poison"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/0/03/Poison1.png",
+                "typeTitle": "Poison"
+              },
+              "level": 30
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Poison Sting",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/8/82/PoisonStatus.png",
+                  "effectTitle": "Poison"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/0/03/Poison1.png",
+                "typeTitle": "Poison"
+              },
+              "level": 30
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Fury Cutter",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7d/Bug.png",
+                "typeTitle": "Bug"
+              },
+              "level": 35
+            },
+            {
+              "moveSet": "M5",
+              "moveName": "Pin Missile",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7d/Bug.png",
+                "typeTitle": "Bug"
+              },
+              "level": 35
+            },
+            {
+              "moveSet": "M6",
+              "moveName": "Toxic Spikes",
+              "time": 25,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/8/82/PoisonStatus.png",
+                  "effectTitle": "Poison"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/62/NeverBoost.png",
+                  "effectTitle": "Neverboost"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/0/03/Poison1.png",
+                "typeTitle": "Poison"
+              },
+              "level": 35
+            },
+            {
+              "moveSet": "M7",
+              "moveName": "Rage",
+              "time": 30,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/0d/Self.png",
+                  "effectTitle": "Self"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c7/Dragon.png",
+                "typeTitle": "Dragon"
+              },
+              "level": 30
+            },
+            {
+              "moveSet": "M8",
+              "moveName": "Strafe",
+              "time": 30,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/0d/Self.png",
+                  "effectTitle": "Self"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 30
+            },
+            {
+              "moveSet": "M9",
+              "moveName": "Adaptability",
+              "time": 0,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/d/d6/Passive.png",
+                  "effectTitle": "Passive"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 0
+            },
+            {
+              "moveSet": "M10",
+              "moveName": "Evasion",
+              "time": 0,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/d/d6/Passive.png",
+                  "effectTitle": "Passive"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 0
+            }
+          ]
+        },
+        "efetividades": {
+          "Efetivo": "Fire, Flying, Psychic and Rock.",
+          "Normal": "Normal, Water, Electric, Ice, Ground, Ghost, Dragon, Steel, Dark and Crystal.",
+          "Inefetivo": "Poison, Bug and Fairy.",
+          "Muito Inefetivo": "Grass and Fighting."
+        }
+      }
+    },
+    {
+      "name": "Pidgey",
+      "url": "https://wiki.pokexgames.com/index.php/Pidgey",
+      "details": {
+        "informacoes": {
+          "Nome": "Pidgey",
+          "Level": "1",
+          "Elemento": "Normal / Flying",
+          "Boost": "Feather Stone ou Heart Stone (30)",
+          "Materia": "Gardestrike ou Wingeon",
+          "Pedra de Evolução": "Feather Stone"
+        },
+        "evolucoes": {
+          "Pidgey": 1,
+          "Pidgeotto": 20,
+          "Pidgeot": 80
+        },
+        "descricao": "É dócil e prefere evitar conflitos. Se perturbado, no entanto, pode ferozmente reagir.",
+        "movimentos": {
+          "pvp": [],
+          "pve": [],
+          "general": [
+            {
+              "moveSet": "M1",
+              "moveName": "Sand Attack",
+              "time": 12,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/68/Blind.png",
+                  "effectTitle": "Blind"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/8/8f/Ground.png",
+                "typeTitle": "Ground"
+              },
+              "level": 1
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Quick Attack",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 1
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Wing Attack",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 6
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Drill Peck",
+              "time": 12,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 6
+            }
+          ]
+        },
+        "efetividades": {
+          "Efetivo": "Electric, Ice and Rock.",
+          "Normal": "Normal, Fire, Water, Fighting, Poison, Flying, Psychic, Dragon, Steel, Dark, Crystal and Fairy.",
+          "Inefetivo": "Grass and Bug.",
+          "Nulo": "Ground and Ghost."
+        }
+      }
+    },
+    {
+      "name": "Pidgeotto",
+      "url": "https://wiki.pokexgames.com/index.php/Pidgeotto",
+      "details": {
+        "informacoes": {
+          "Nome": "Pidgeotto",
+          "Level": "20",
+          "Habilidades": "None",
+          "Elemento": "Normal / Flying",
+          "Boost": "Feather Stone ou Heart Stone (10)",
+          "Materia": "Gardestrike ou Wingeon",
+          "Pedra de Evolução": "Feather Stone (2x)"
+        },
+        "evolucoes": {
+          "Pidgey": 1,
+          "Pidgeotto": 20,
+          "Pidgeot": 80
+        },
+        "descricao": "Voa sobre seu vasto território em busca de presas, derrubando-a com suas garras altamente desenvolvidas.",
+        "movimentos": {
+          "pvp": [],
+          "pve": [],
+          "general": [
+            {
+              "moveSet": "M1",
+              "moveName": "Quick Attack",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 20
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Sand Attack",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/68/Blind.png",
+                  "effectTitle": "Blind"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/8/8f/Ground.png",
+                "typeTitle": "Ground"
+              },
+              "level": 20
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Gust",
+              "time": 22,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 22
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Drill Peck",
+              "time": 18,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 20
+            },
+            {
+              "moveSet": "M5",
+              "moveName": "Wing Attack",
+              "time": 25,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 23
+            },
+            {
+              "moveSet": "M6",
+              "moveName": "Tornado",
+              "time": 60,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 26
+            }
+          ]
+        },
+        "efetividades": {
+          "Efetivo": "Electric, Ice and Rock.",
+          "Normal": "Normal, Fire, Water, Fighting, Poison, Flying, Psychic, Dragon, Steel, Dark, Crystal and Fairy.",
+          "Inefetivo": "Grass and Bug.",
+          "Nulo": "Ground and Ghost."
+        }
+      }
+    },
+    {
+      "name": "Pidgeot",
+      "url": "https://wiki.pokexgames.com/index.php/Pidgeot",
+      "details": {
+        "informacoes": {
+          "Nome": "Pidgeot",
+          "Level": "80",
+          "Elemento": "Normal / Flying",
+          "Habilidades": "Fly and Headbutt",
+          "Boost": "Feather Stone ou Heart Stone (3)",
+          "Materia": "Gardestrike Enhanced ou Wingeon Enhanced"
+        },
+        "evolucoes": {
+          "Pidgey": 1,
+          "Pidgeotto": 20,
+          "Pidgeot": 80
+        },
+        "descricao": "Ao bater as asas com toda a força, Pidgeot pode fazer uma rajada de vento capaz de curvar árvores altas.",
+        "movimentos": {
+          "pvp": [
+            {
+              "moveSet": "M1",
+              "moveName": "Quick Attack",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Drill Peck",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Feather Dance",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Whirlwind",
+              "time": 50,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/9/97/Stun.png",
+                  "effectTitle": "Stun"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M5",
+              "moveName": "Wing Attack",
+              "time": 25,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 82
+            },
+            {
+              "moveSet": "M6",
+              "moveName": "Tornado",
+              "time": 60,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 84
+            },
+            {
+              "moveSet": "M7",
+              "moveName": "Hurricane",
+              "time": 50,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 90
+            },
+            {
+              "moveSet": "M8",
+              "moveName": "Air Slash",
+              "time": 50,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 83
+            },
+            {
+              "moveSet": "M9",
+              "moveName": "Agility",
+              "time": 50,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/0d/Self.png",
+                  "effectTitle": "Self"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 80
+            }
+          ],
+          "pve": [
+            {
+              "moveSet": "M1",
+              "moveName": "Quick Attack",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Drill Peck",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Feather Dance",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Whirlwind",
+              "time": 40,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/9/97/Stun.png",
+                  "effectTitle": "Stun"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 80
+            },
+            {
+              "moveSet": "M5",
+              "moveName": "Wing Attack",
+              "time": 25,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 82
+            },
+            {
+              "moveSet": "M6",
+              "moveName": "Tornado",
+              "time": 50,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 84
+            },
+            {
+              "moveSet": "M7",
+              "moveName": "Hurricane",
+              "time": 40,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 90
+            },
+            {
+              "moveSet": "M8",
+              "moveName": "Air Slash",
+              "time": 40,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/7/7f/Flying.png",
+                "typeTitle": "Flying"
+              },
+              "level": 83
+            },
+            {
+              "moveSet": "M9",
+              "moveName": "Agility",
+              "time": 50,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/0d/Self.png",
+                  "effectTitle": "Self"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 80
+            }
+          ],
+          "general": []
+        },
+        "efetividades": {
+          "Efetivo": "Electric, Ice and Rock.",
+          "Normal": "Normal, Fire, Water, Fighting, Poison, Flying, Psychic, Dragon, Steel, Dark, Crystal and Fairy.",
+          "Inefetivo": "Grass and Bug.",
+          "Nulo": "Ground and Ghost."
+        }
+      }
+    },
+    {
+      "name": "Rattata",
+      "url": "https://wiki.pokexgames.com/index.php/Rattata",
+      "details": {
+        "informacoes": {
+          "Nome": "Rattata",
+          "Level": "1",
+          "Elemento": "Normal",
+          "Boost": "Heart Stone (30)",
+          "Materia": "Gardestrike",
+          "Pedra de Evolução": "Heart Stone"
+        },
+        "evolucoes": {
+          "Rattata": 1,
+          "Raticate": 30
+        },
+        "descricao": "Cauteloso ao extremo, sua vitalidade robusta permite que ele viva em qualquer tipo de ambiente.",
+        "movimentos": {
+          "pvp": [],
+          "pve": [],
+          "general": [
+            {
+              "moveSet": "M1",
+              "moveName": "Quick Attack",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 1
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Bite",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/98/Dark1.png",
+                "typeTitle": "Dark"
+              },
+              "level": 1
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Scratch",
+              "time": 15,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 1
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Super Fang",
+              "time": 45,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 0
+            }
+          ]
+        },
+        "efetividades": {
+          "Muito Efetivo": "Fighting.",
+          "Normal": "Normal, Fire, Water, Grass, Electric, Ice, Poison, Ground, Flying, Psychic, Bug, Rock, Dragon, Steel, Dark, Crystal and Fairy.",
+          "Nulo": "Ghost."
+        }
+      }
+    },
+    {
+      "name": "Raticate",
+      "url": "https://wiki.pokexgames.com/index.php/Raticate",
+      "details": {
+        "informacoes": {
+          "Nome": "Raticate",
+          "Level": "30",
+          "Elemento": "Normal",
+          "Habilidades": "Dig, Cut and Headbutt",
+          "Boost": "Heart Stone (10)",
+          "Materia": "Gardestrike"
+        },
+        "evolucoes": {
+          "Rattata": 1,
+          "Raticate": 30
+        },
+        "descricao": "Ele afina suas presas, que estão em constante crescimento, roendo coisas duras. Pode mastigar paredes de concreto.",
+        "movimentos": {
+          "pvp": [],
+          "pve": [],
+          "general": [
+            {
+              "moveSet": "M1",
+              "moveName": "Quick Attack",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 30
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Bite",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/98/Dark1.png",
+                "typeTitle": "Dark"
+              },
+              "level": 30
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Scratch",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 30
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Pursuit",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/9/98/Dark1.png",
+                "typeTitle": "Dark"
+              },
+              "level": 30
+            },
+            {
+              "moveSet": "M5",
+              "moveName": "Super Fang",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 30
+            },
+            {
+              "moveSet": "M6",
+              "moveName": "Scary Face",
+              "time": 35,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/f/ff/Paralyze.png",
+                  "effectTitle": "Paralyze"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 32
+            },
+            {
+              "moveSet": "M7",
+              "moveName": "Fury",
+              "time": 0,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/d/d6/Passive.png",
+                  "effectTitle": "Passive"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6e/Buff.png",
+                  "effectTitle": "Buff"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c7/Dragon.png",
+                "typeTitle": "Dragon"
+              },
+              "level": 0
+            }
+          ]
+        },
+        "efetividades": {
+          "Muito Efetivo": "Fighting.",
+          "Normal": "Normal, Fire, Water, Grass, Electric, Ice, Poison, Ground, Flying, Psychic, Bug, Rock, Dragon, Steel, Dark, Crystal and Fairy.",
+          "Nulo": "Ghost."
+        }
+      }
+    }
+  ]
+}
