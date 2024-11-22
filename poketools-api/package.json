@@ -4,7 +4,7 @@
   "description": "poketools Node.js API",
   "main": "index.js",
   "scripts": {
-    "start": "tsx watch src/index.ts",
+    "start": "tsx watch src/server.ts",
     "lint": "eslint .",
     "format": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "@types/module-alias": "^2.0.4",
+    "express": "^4.21.1",
     "module-alias": "^2.2.3"
   }
 }
