@@ -96,7 +96,7 @@ const PokeDetails = () => {
                      weight={pokemon?.weight}
                      base_experience={pokemon.base_experience}
                      abilities={pokemon.abilities}
-                     category={pokemon.species.url}
+                     category={pokemon.name}
                   />
                   {/* <div>
                      <p>Height: {pokemon?.height}</p>
