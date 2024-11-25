@@ -13,10 +13,21 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-
-model Pokemon{
-  id Int @id @default(autoincrement())
-  name String
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt 
+model Pokemon {
+  id             Int      @id @default(autoincrement())
+  pokemonNumber  Int?
+  name           String?
+  url            String?
+  description    String?
+  level          Int?
+  element        String?
+  abilities      String?
+  boost          String?
+  material       String?
+  evolutionStone String?
+  evolutions     String[]
+  moves          Json?
+  effectiveness  Json?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
 }

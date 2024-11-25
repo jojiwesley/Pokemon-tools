@@ -1,8 +1,42 @@
-import { IsNotEmpty, IsString, MaxLength } from 'class-validator';
+import { IsInt, IsString, IsOptional } from 'class-validator';
 
 export class CreatePokemonDto {
-  @MaxLength(255)
+  @IsInt()
+  pokemonNumber: number;
+
   @IsString()
-  @IsNotEmpty()
   name: string;
+
+  @IsString()
+  url: string;
+
+  @IsString()
+  description: string;
+
+  @IsInt()
+  level: number;
+
+  @IsString()
+  element: string;
+
+  @IsString()
+  abilities: string;
+
+  @IsString()
+  boost: string;
+
+  @IsString()
+  material: string;
+
+  @IsString()
+  evolutionStone: string;
+
+  @IsOptional()
+  evolutions: string[];
+
+  @IsOptional()
+  moves: object;
+
+  @IsOptional()
+  effectiveness: object;
 }

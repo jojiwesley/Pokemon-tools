@@ -1,20 +1,75 @@
-GET http://localhost:3333/pokemon
+GET http://localhost:3333/pokemons
 ###
-GET http://localhost:3333/pokemon/3
+GET http://localhost:3333/pokemons/7
 
 ###
-POST http://localhost:3333/pokemon
+POST http://localhost:3333/pokemons
+Content-Type: application/json
+
+{
+  "pokemonNumber": 1,
+  "name": "Bulbasaur",
+  "url": "https://wiki.pokexgames.com/index.php/Bulbasaur",
+  "description": "Uma estranha semente foi plantada nas costas ao nascer. A planta brota e cresce com este Pokémon.",
+  "level": 1,
+  "element": "",
+  "abilities": "",
+  "boost": "",
+  "material": "",
+  "evolutionStone": "",
+  "evolutions": [{
+    "Bulbasaur": 20,
+    "Ivysaur": 40,
+    "Venusaur": 80
+  }],
+  "moves": {
+    "general": [
+      {
+        "moveSet": "M1",
+        "moveName": "Tackle",
+        "time": 12,
+        "effects": [
+          {
+            "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+            "effectTitle": "Target"
+          }
+        ],
+        "type": {
+          "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+          "typeTitle": "Normal"
+        },
+        "level": 20
+      }
+    ]
+  },
+  "effectiveness": {
+    "Efetivo": [
+      "Fire",
+      "Ice",
+      "Flying",
+      "Psychic"
+    ],
+    "Normal": [
+      "Normal",
+      "Bug",
+      "Rock"
+    ],
+    "Inefetivo": [
+      "Water",
+      "Electric"
+    ],
+    "Muito Inefetivo": [
+      "Grass"
+    ]
+  }
+}
+
+###
+PATCH http://localhost:3333/pokemons/3
 Content-Type: application/json
 
 {
     "name": "charmander"
 }
 ###
-PATCH http://localhost:3333/pokemon/3
-Content-Type: application/json
-
-{
-    "name": "charmander"
-}
-###
-DELETE http://localhost:3333/pokemon/4
+DELETE http://localhost:3333/pokemons/4
