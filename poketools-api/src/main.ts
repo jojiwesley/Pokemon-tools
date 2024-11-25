@@ -1,8 +1,17 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
+import { ValidationPipe } from '@nestjs/common';
+import { PrismaNotFoundExceptionFilter } from './exception-filters/prisma-not-founde.exception-filters';
 
-async function bootstrap() {
+async function server() {
   const app = await NestFactory.create(AppModule);
-  await app.listen(process.env.PORT ?? 3000);
+
+  app.useGlobalPipes(
+    new ValidationPipe({
+      errorHttpStatusCode: 422,
+    })
+  );
+  app.useGlobalFilters(new PrismaNotFoundExceptionFilter());
+  await app.listen(process.env.PORT ?? 3333);
 }
-bootstrap();
+server();
