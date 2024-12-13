@@ -1,0 +1,35 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
+{
+	"name": "Node.js & TypeScript",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {},
+		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {},
+		"ghcr.io/devcontainers-community/npm-features/typescript:1": {},
+		"ghcr.io/devcontainers-extra/features/prisma:2": {},
+		"ghcr.io/devcontainers-extra/features/zsh-plugins:0": {}
+	},
+	"forwardPorts": [
+		3000
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-azuretools.vscode-docker",
+				"mhutchie.git-graph",
+				"mohsen1.prettify-json",
+				"rvest.vs-code-prettier-eslint",
+				"esbenp.prettier-vscode",
+				"prisma.prisma",
+				"humao.rest-client"
+			],
+			"settings": {
+				"terminal.integrated.shell.linux": "/usr/bin/zsh"
+			}
+		}
+	},
+	"postCreateCommand": "yarn install",
+	"remoteUser": "node"
+}
