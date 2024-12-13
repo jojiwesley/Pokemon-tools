@@ -25,7 +25,7 @@ model Pokemon {
   boost          String?
   material       String?
   evolutionStone String?
-  evolutions     String[]
+  evolutions     Json?
   moves          Json?
   effectiveness  Json?
   createdAt      DateTime @default(now())

@@ -25,6 +25,6 @@ async function server() {
   const documentFactory = () => SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('swagger', app, documentFactory);
 
-  await app.listen(process.env.PORT ?? 3333);
+  await app.listen(process.env.PORT ?? 3000);
 }
 server();

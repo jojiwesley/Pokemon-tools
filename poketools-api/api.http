@@ -1,22 +1,22 @@
-GET http://localhost:3333/pokemons
+GET http://localhost:3000/pokemons
 ###
-GET http://localhost:3333/pokemons/7
+GET http://localhost:3000/pokemons/2
 
 ###
-POST http://localhost:3333/pokemons
+POST http://localhost:3000/pokemons
 Content-Type: application/json
 
 {
   "pokemonNumber": 1,
-  "name": "Bulbasaur",
+  "name": "bulbasaur",
   "url": "https://wiki.pokexgames.com/index.php/Bulbasaur",
   "description": "Uma estranha semente foi plantada nas costas ao nascer. A planta brota e cresce com este Pokémon.",
-  "level": 1,
-  "element": "",
-  "abilities": "",
-  "boost": "",
-  "material": "",
-  "evolutionStone": "",
+  "level": 10,
+  "element": "Grass / Poison",
+  "abilities": "Light, Cut and Headbutt.",
+  "boost": "Leaf Stone ou Venon Stone(10).",
+  "material": "Naturia ou Malefic",
+  "evolutionStone": "Leaf Stone",
   "evolutions": [{
     "Bulbasaur": 20,
     "Ivysaur": 40,
@@ -65,11 +65,175 @@ Content-Type: application/json
 }
 
 ###
-PATCH http://localhost:3333/pokemons/3
+PATCH http://localhost:3000/pokemons/1
 Content-Type: application/json
 
 {
-    "name": "charmander"
+  "moves":{
+    "general":[
+            {
+              "moveSet": "M1",
+              "moveName": "Tackle",
+              "time": 12,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/e/e8/Normal1.png",
+                "typeTitle": "Normal"
+              },
+              "level": 20
+            },
+            {
+              "moveSet": "M2",
+              "moveName": "Razor Leaf",
+              "time": 10,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 20
+            },
+            {
+              "moveSet": "M3",
+              "moveName": "Vine Whip",
+              "time": 18,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 20
+            },
+            {
+              "moveSet": "M4",
+              "moveName": "Grass Knot",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 23
+            },
+            {
+              "moveSet": "M5",
+              "moveName": "Leech Seed",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/0/09/Target.png",
+                  "effectTitle": "Target"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/68/Lifesteal.png",
+                  "effectTitle": "Lifesteal"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 20
+            },
+            {
+              "moveSet": "M6",
+              "moveName": "Solar Beam",
+              "time": 60,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/6/6a/Damage.png",
+                  "effectTitle": "Damage"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 25
+            },
+            {
+              "moveSet": "M7",
+              "moveName": "Stun Spore",
+              "time": 40,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/f/ff/Paralyze.png",
+                  "effectTitle": "Paralyze"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/c/c5/Grass.png",
+                "typeTitle": "Grass"
+              },
+              "level": 20
+            },
+            {
+              "moveSet": "M8",
+              "moveName": "Poison Powder",
+              "time": 20,
+              "effects": [
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/1/11/AOE.png",
+                  "effectTitle": "AOE"
+                },
+                {
+                  "effectImage": "https://wiki.pokexgames.com/images/8/82/PoisonStatus.png",
+                  "effectTitle": "Poison"
+                }
+              ],
+              "type": {
+                "typeImage": "https://wiki.pokexgames.com/images/0/03/Poison1.png",
+                "typeTitle": "Poison"
+              },
+              "level": 0
+            }
+    ]
+  }
 }
+
 ###
-DELETE http://localhost:3333/pokemons/4
+DELETE http://localhost:3000/pokemons/4
