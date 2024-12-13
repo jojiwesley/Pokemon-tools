@@ -32,6 +32,7 @@
 			}
 		}
 	},
+	"postCreateCommand": "chmod 700 /home/node/.ssh && chmod 600 /home/node/.ssh/id_rsa && chmod 644 /home/node/.ssh/id_rsa.pub",
 	// "postCreateCommand": "yarn install",
 	"remoteUser": "node"
 	// Features to add to the dev container. More info: https://containers.dev/features.
