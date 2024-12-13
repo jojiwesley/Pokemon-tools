@@ -32,7 +32,7 @@
 			}
 		}
 	},
-	"postCreateCommand": "yarn install",
+	// "postCreateCommand": "yarn install",
 	"remoteUser": "node"
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
